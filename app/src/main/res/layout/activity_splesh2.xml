@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gamepage"
+    android:layout_height="match_parent"
+    tools:context=".splesh2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:text="winner is : "
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="35dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:text="winner is : "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lotile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="260dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/chairup" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/home"
+            android:layout_marginLeft="80dp"
+            android:text="Home"
+            android:textSize="25sp"
+            android:layout_marginTop="500dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/restart"
+        android:text="Restart"
+        android:textSize="25sp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="500dp"/>
+
+
+</RelativeLayout>
